@@ -1,0 +1,40 @@
+:root {
+	--color1: #6a00ff;
+	--color2: #ffd966;
+	--color3: #eeecec;
+	--color4: #2f2f2f;
+	--color5: #ffffff;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family:'Courier New', Courier, monospace;
+}
+
+p {
+	text-transform: capitalize;
+	color: var(--color5);
+	font-size: 1.3rem;
+}
+
+ button, input {
+	  border: none;
+    padding: 0.8em 2em;
+    border-radius: 5px;
+    color: var(--color4);
+    display: inline-block;
+    background: var(--color3);
+    transition: 0.3s;
+    font-weight: 800;
+    font-size: 0.8em;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+		box-shadow: 0 0 2px var(--color4);
+}
+button:active {
+    transform: scale(0.80);
+}
